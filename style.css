@@ -712,7 +712,6 @@ u {
     .contact .buttons .row button {
         margin: 3rem;
         position: relative;
-        <!--transform: translateX(15%);
-        -->
+        transform: translateX(19%);
     }
 }
