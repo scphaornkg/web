@@ -93,3 +93,27 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
+window.onscroll = function() { myFunction() };
+
+function myFunction() {
+
+    if (document.documentElement.scrollTop > 100) {
+        document.getElementById("about").className = "about animate__animated animate__backInUp ";
+    } else {}
+    if (document.documentElement.scrollTop > 1000) {
+        document.getElementById("my_study_competition").className = "my_study_competition animate__animated animate__backInUp ";
+    } else {
+
+    }
+
+    console.log(document.documentElement.scrollTop)
+    if (document.documentElement.scrollTop > 1700) {
+        document.getElementById("certification").className = "certification animate__animated animate__backInUp ";
+    } else {}
+
+    if (document.documentElement.scrollTop > 2600) {
+        document.getElementById("contact").className = "contact animate__animated animate__backInUp ";
+        document.getElementById("add_br").className = "hide";
+    } else {}
+
+}
