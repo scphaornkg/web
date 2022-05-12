@@ -12,7 +12,7 @@
     outline: none;
     border: none;
     text-transform: capitalize;
-    transition: all .2s linear;
+    transition: all 0.5s ease-out;
 }
 
 *::selection {
@@ -36,6 +36,12 @@ html::-webkit-scrollbar-track {
 html::-webkit-scrollbar-thumb {
     background: var(--yellow);
 }
+
+.hide {
+    display: none;
+}
+
+.hide_sections {}
 
 body {
     background: #111;
